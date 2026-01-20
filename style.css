@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-/* HEADER */
 .header {
     max-width: 1600px;
     margin: 0 auto;
@@ -31,7 +30,6 @@ body {
     font-size: 15px;
 }
 
-/* BUTTONS */
 .btn {
     text-decoration: none;
     background: #469165;
@@ -50,7 +48,7 @@ body {
     font-size: 14px;
 }
 
-/* HERO */
+
 .hero {
     height: 675px;
     background: url("img/hero-bg.png") center/cover no-repeat;
@@ -69,8 +67,8 @@ body {
     align-items: center;
 }
 
-/* PILL */
-.pill {
+
+.shape {
     background: white;
     color: #2f8f5b;
     padding: 8px 14px;
@@ -80,7 +78,7 @@ body {
     margin-bottom: 24px;
 }
 
-/* HERO TEXT */
+
 .hero h1 {
     font-size: 48px;
     line-height: 1.2;
@@ -99,7 +97,6 @@ body {
     margin-bottom: 32px;
 }
 
-/* HERO BUTTONS */
 .hero-buttons {
     display: flex;
     gap: 16px;
