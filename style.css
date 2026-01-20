@@ -129,6 +129,7 @@
     font-style: Regular;
     font-size: 16px;
     margin-top: 16px;
+    margin-bottom: 44px;
     font-weight: 400;
     line-height: 20px;
     text-align: center;
@@ -140,7 +141,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 44px;
     margin-right: 120px;
     margin-left: 120px;
     gap: 24px;
@@ -314,6 +314,7 @@
 .info p{
     width: 274px;
     height: 40px;
+    margin-top: 16px;
     text-align: center;
 }
 
