@@ -103,3 +103,217 @@
     gap: 16px;
     justify-content: center;
 }
+.note-content{
+    
+    align-items: center;
+    justify-content: center;
+    width: auto 1360px;
+    height:auto 152px;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;   
+
+}
+.note-content h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+}
+.note-content p {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-style: Regular;
+    font-size: 16px;
+    margin-top: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+/*box-container*/ 
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    margin-right: 120px;
+    margin-left: 120px;
+    gap: 24px;
+    width: 1360px;
+    height: 300px;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+.box-container .note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 322px;
+    height: 300px;
+    gap: 16px;
+}
+.box-container .bookmark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 322px;
+    height: 300px;
+    gap: 16px;
+}
+.box-container .idea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 322px;
+    height: 300px;
+    gap: 16px;
+}
+.box-container .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 322px;
+    height: 300px;
+    gap: 16px;
+}
+.note img{
+    margin-top: 69.5px;
+    margin-bottom: 16px;
+    margin-left: 131px;
+    margin-right: 131px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 160px;
+    background-color: rgba(249, 85, 85, 1);
+}
+.note h2 {
+    width: 274px;
+    height: 29px;
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.note p{
+    width: 274px;
+    height: 40px;
+    text-align: center;
+}
+
+/*bookmark*/
+
+.bookmark img{
+    margin-top: 69.5px;
+    margin-bottom: 16px;
+    margin-left: 131px;
+    margin-right: 131px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 160px;
+    background-color: rgba(249, 85, 85, 1);
+}
+.bookmark h2 {
+    width: 274px;
+    height: 29px;
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.bookmark p{
+    width: 274px;
+    height: 40px;
+    text-align: center;
+}
+
+/*idea*/
+
+
+.idea img{
+    margin-top: 69.5px;
+    margin-bottom: 16px;
+    margin-left: 131px;
+    margin-right: 131px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 160px;
+    background-color: rgba(249, 85, 85, 1);
+}
+.idea h2 {
+    width: 274px;
+    height: 29px;
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.idea p{
+    width: 274px;
+    height: 40px;
+    text-align: center;
+}
+
+/*info*/
+
+.info img{
+    margin-top: 69.5px;
+    margin-bottom: 16px;
+    margin-left: 131px;
+    margin-right: 131px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 160px;
+    background-color: rgba(249, 85, 85, 1);
+}
+.info h2 {
+    width: 274px;
+    height: 29px;
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-family: Inter;
+    font-style: Semi Bold;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+.info p{
+    width: 274px;
+    height: 40px;
+    text-align: center;
+}
+
